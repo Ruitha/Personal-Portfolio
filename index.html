@@ -1,94 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wagema.J.Ruitha Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css?family=Source=Code+Pro:400,900|Source+Sans
++Pro:300,900&display=swap" rel="stylesheet">
 
-    <!--CSS Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+<link rel="stylesheet" href="css/style.css">
 
-    <!-- Favicons -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/icons/favicon-32x32.png"
-    />
-
-    <!-- Animate CSS CDN -->
-    <link>
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <title>Jane Doe | Web Developer</title>
   </head>
-
-  <body>
-    <!-- Navbar -->
-    <nav>
-      <h1>WAGEMA JOHN RUITHA</h1>
-      <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/me.png" alt="Myself">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a hre="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a hre="#aboutme" class="nav__link">About me</a></li>
+        <li class="nav__item"><a hre="#projects" class="nav__link">My Projects</a></li>
+        <li class="nav__item"><a hre="#skills" class="nav__link">Skills</a></li>
       </ul>
-      <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
-      </button>
-</nav>
+    </nav>
+  </header>
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 classs="section__title section__title--intro">
+        Hi, I am <strong> Wagema John Ruitha </strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">IT Expert</p>
 
-    <!-- Hero Section -->
-    <section class="hero" id="about">
-      <img
-        src="Portfolio/images/Man"
-        alt="Wagema_John_Ruitha"
-        loading="lazy"
-        class="hero-img"
-      />
-      <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">
-          I, Wagema John Ruitha, purpose to use my IT skills to tailor-make solutions that meet customer needs 
-          and give companies a competitive edge in the market by leading them to create more digital platforms
-          and improve on advancements of technology, actualization on organic profitability 
-          and capacity to venture into new frontiers.
-        </p>
-      </div>
+    </section>
+  <!-- About me -->
+  <section class="aboutme" id="about">
+    <h2 class="section__title section__title--about">Who am I?</h2>
+    <p class="section__subtitle section__subtitle--about"></p>
+
+    <div class="about-me__body">
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+
+    </div>
+    <img src="" alt="">
+  </section>
+
+<!-- My Projects -->
+<section class="my-projects" id="projects">
+  <h2 class="section__title">My Projects</h2>
+
 </section>
 
-    <!-- More about -->
-    
+<!-- Footer -->
+<footer>
 
-    <!-- Skills section -->
+<a href="mailto:wagemajohnny@gmail.com" class="footer__link">wagemajohnny@gmail.com</a>
+<ul class="social-list">
 
-    <!-- Projects section -->
+<li class="social-list__item"><a class="social-list__link"
+href="https://replit.com/@Ruitha">a: Replit</a></li>
+<li class="social-list__item"><a class="social-list__link"
+  href="https://www.linkedin.com/in/johnwagema/">b: LinkedIn</a></li>
+<li class="social-list__item"><a class="social-list__link"
+    href="https://github.com/Ruitha">c: GitHub</a></li>
 
-    <!-- Contact section -->
-
-    <!-- Social accounts - Fixed to the right -->
-
-    <!-- Scroll to top -->
-
-    <!-- Footer section -->
-
-    <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
-
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  </ul>
+</footer>
+</body>
 </html>
